@@ -1,0 +1,120 @@
+body{
+    background-color:white;
+    margin:0px;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(224, 237, 235);
+    margin:40px;
+}
+.top-container{
+     background-color: rgb(212, 243, 212);
+     position:relative;
+     padding-top:100px;
+    }
+    h1{
+        font-family: 'Sacramento', cursive;
+        margin:50px auto 0 auto;
+        font-size:90px;
+        color:#66BFBF;
+        line-height: 2;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        color:#66BFBF;
+        font-weight: normal;
+
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        color:#11999E;
+    }
+.middle-container{
+
+    }
+.top-cloud{
+    position:absolute;
+    right:400px;
+    top:50px;
+
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+
+    
+}
+a{
+    color:#11999E;
+    padding:20px;
+    margin-top: 20px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto;
+    text-align:left;
+    line-height:2;
+}
+.skill-img{
+    width:25%;
+    margin:0 auto;
+    float:left;
+    padding-right: 30px;
+}
+.fitness-img{
+    width:25%;
+    margin:0 auto;
+    float:right;
+    padding-right: 30px;
+}
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #2980b9);
+    background-image: -moz-linear-gradient(top, #000000, #2980b9);
+    background-image: -ms-linear-gradient(top, #000000, #2980b9);
+    background-image: -o-linear-gradient(top, #000000, #2980b9);
+    background-image: linear-gradient(to bottom, #000000, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #1ce8c3;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: black;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom-container{
+    margin-top: 60px;
+    padding-bottom: 50px;
+    background-color: #6bc9ce;
+  }
+  .bottom-container p{
+    padding-top: 30px;
+  }
+  .contacticon{
+    height: 30px;
+  }
+  .profilepic{
+    width:20%;
+  }
+  .mountain{
+   opacity: 0.5;
+  }
+  .phoneicon{
+    height:30px;
+    width:30px;
+    position: relative;
+    top:5px;
+    left:10px;
+  }
